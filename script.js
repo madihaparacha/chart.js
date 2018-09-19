@@ -1,4 +1,5 @@
 function initialize(){
+        document.querySelector(".form-control").value;
         $.ajax({
         url : "https://api.fifa.com/api/v1/calendar/matches?idseason=254645&idcompetition=17&language=en-GB&count=100",
         success: function(data){
@@ -7,7 +8,7 @@ function initialize(){
     var myChart = new Chart(ctx, {
         type: 'bar',
         data: {
-            labels: ["Germany", "france", "spain", "italy", "argentina", "brazil"],
+            labels: ["Germany", "france", "spain", "italy", "argentina", "brazil" ,"russia"],
             datasets: [{
                 label: 'fifa worldcup winners',
                 data: [12, 19, 3, 5, 2, 3],

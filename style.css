@@ -1,0 +1,10 @@
+.form-control{
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	margin: 50px;
+}
+#myChart{
+	height: 400px !important;
+	width: 100% !important;
+}
